@@ -1,1 +1,13 @@
 Cifar10Dataset filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/Labels_train.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TestFeaturesHoG.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TrainFeaturesHoG_PCA.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TrainFeaturesHoG.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/Labels_test.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/RawPixels_test.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/RawPixels_train.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TestFeaturesHoG_PCA.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TestFeaturesPCA_HoG.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TestFeaturesPCA.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TrainFeaturesPCA_HoG.pkl filter=lfs diff=lfs merge=lfs -text
+PreProcessedData/TrainFeaturesPCA.pkl filter=lfs diff=lfs merge=lfs -text
