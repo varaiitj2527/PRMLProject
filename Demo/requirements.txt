@@ -1,0 +1,9 @@
+streamlit
+keras>=3.0.0
+tensorflow
+torch
+torchvision
+numpy
+pillow
+scikit-learn
+requests
