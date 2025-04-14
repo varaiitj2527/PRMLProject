@@ -1,0 +1,425 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/chalkduster');
+</style>
+<!-- <script src="./sm/assets/teaser-data.js"></script> -->
+
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Image Retrieval</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions.&#39;">
+    <!-- <link rel="icon" href="./pics/wis_logo.jpg"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Image Retrieval</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions.&#39;">
+
+
+      <meta charset="utf-8">
+      <meta name="description" content="Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions">
+       <meta name="keywords" content="sketch+text-based image retrieval, cross-modal retrieval, image retrieval, SBIR, CSTBIR;">
+      <meta name="author" content="Prajwal Gatti">
+      <title>Image Retrieval</title>
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="[AAAI 2024] Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions" />
+      <meta name="twitter:description" content="[AAAI 2024] Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions" />
+      <meta name="twitter:image:alt" content="CSTBIR (AAAI 2024)" />
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <p class="title">Image Retrieval</p>
+    <div style="text-align: center; font-size: 15pt; margin-bottom: 15px">
+            <span><a href="">CSL2050 Course Project 2025</a></span>
+    </div>
+    <p class="author">
+        <span class="author"><a href="https://github.com/varaiitj2527"> Vara Prasad Reddy</a></span> |
+        <span class="author"><a href="https://github.com/manideepiitj">Manideep</a></span> |
+        <span class="author"><a href="https://github.com/NeerajMansingh">Neeraj Mansingh</a></span> |
+        <span class="author"><a href="https://github.com/priyanshuiitj">Priyanshu</a></span> |
+        <span class="author"><a href="https://github.com/sky17092004">Karan</a></span> |
+        <span class="author"><a href="https://github.com/TejasKalkar">Tejas Prasad</a></span>
+    </p>
+    <table border="0" align="center" class="affiliations" width="700px">
+        <tbody align="center">
+            <tc>
+                <td style="text-align: center;">Indian Institute of Technology, Jodhpur</td>
+            </tc>
+        </tbody>
+    </table>
+
+    <table width="999" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+        <tbody>
+            <tr>
+                <td align="center"><a href="https://www.overleaf.com/read/zmkmsbgnjjct#6cedde">Report link</a> | <a href="https://github.com/varaiitj2527/PRMLProject">Github Link</a> | <a href="https://www.cs.toronto.edu/~kriz/cifar.html">Cifar-10 Dataset</a> | <a href="https://youtu.be/Lo91aS3M1cA?feature=shared">Youtube link </a> | <a href="https://docs.google.com/document/d/1TovvJlE6R2OcKX7Mt676dLIcteEXRXyE7j7QUWtcbcQ/edit?tab=t.0">Minutes of Meetings</a> </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="container">
+        <table width="1000" border="0" align="center">
+            <tbody>
+                <tr>
+                    <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <ol class="carousel-indicators">
+                          <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#imageCarousel" data-slide-to="1"></li>
+                          <li data-target="#imageCarousel" data-slide-to="2"></li>
+                          <li data-target="#imageCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100 teaser-img" src="carousel_img_1.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 teaser-img" src="carousel_img_2.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 teaser-img" src="carousel_img_3.jpg" alt="Third slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 teaser-img" src="carousel_img_5.jpg" alt="Fourth slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 teaser-img" src="carousel_img_6.jpg" alt="Fourth slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 teaser-img" src="carousel_img_7.jpg" alt="Fourth slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>                      
+                </tr>
+                <!-- <tr> <br /> </tr> -->
+                <tr align="center"></tr>
+            </tbody>
+        </table>
+        <div style="text-align: justify;text-justify: inter-word;">
+        <br>
+        <br>
+        <p class="section"><b>Abstract</b></p>
+        <p>"This project focuses on building an image retrieval system using the CIFAR-10 dataset, a widely used benchmark in computer vision. The main goal is to retrieve visually similar images from the dataset based on a given query image. To achieve this, we explore both traditional machine learning and deep learning techniques, applying them to understand and compare the visual content of images effectively. Feature extraction plays a key role in this process, helping the system represent each image in a meaningful way that captures its essential patterns and structures. This leads to more accurate and relevant retrieval results. Image retrieval has many real-world applications, such as visual product searches in e-commerce platforms and case-based comparisons in medical imaging, where finding similar images can assist with diagnosis and treatment planning."</p>
+        </div>
+        <!-- <div style="text-align: justify;text-justify: inter-word;">
+        <p><b>Keywords:</b> sketch+text-based image retrieval, cross-modal retrieval, image retrieval, SBIR, CSTBIR</p>
+        </div> -->
+        <p class="section">&nbsp;</p>
+
+        <p class="section"><b>The Image Retrieval Problem</b></p>
+        <div style="text-align: center">
+            <img src="./images/image2image.png" alt="" width="700px" style="margin: auto" />
+        </div>
+        <div style="text-align: justify; text-justify: inter-word;">
+            <p>In today’s digital world, the amount of image data generated and shared across the internet is growing at an incredible rate. With millions of images being uploaded every day, efficiently retrieving relevant images based on user input has become a significant challenge. Traditional text-based search methods often fail to capture the visual similarity between images, especially when users want to search using an actual image instead of keywords. To address this, we focus on building an image retrieval system that takes an image as input and returns visually similar images from a dataset. This system relies on analyzing the visual content of images to understand patterns, shapes, and textures, enabling more accurate and meaningful results. Such systems are especially useful in real-world applications like fashion or product search, reverse image lookup, and even in medical fields where visual similarity can help identify related cases.</p>
+        </div>
+
+        <p class="section">&nbsp;</p>
+
+        <!-- <p class="section"><b>Sketches in CSTBIR</b></p>
+        <div style="text-align: center">
+            <img src="./resources/supp_sketch_examples-min.png" alt="" width="700px" style="margin: auto" /><br>
+            <br><br><p>Examples of sketches.</p>
+        </div>
+        <p class="section">&nbsp;</p> -->
+
+<p class="section"><b>Youtube Video</b></p>
+<centre>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uMFCbYbJjo?si=uTvRotgH5AHOsw1V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</centre>	    
+        <p class="section">&nbsp;</p>
+        <div class="papers-list">
+
+            <p class="section" id="related-paper"><b>Pre-Processing Techniques</b></p>
+            <ul>
+                <li>
+                    <h5>PCA (Principle Component Analysis)</h5> PCA is used to reduce the dimensionality of image data while retaining the most important features. On the CIFAR-10 dataset, which has relatively small 32x32 images, PCA helps compress the data by removing noise and redundancy, making further processing faster and more efficient. It is useful when combined with other techniques.
+
+                </li><br>
+                <li>
+                    <h5>HoG (Histogram of Oriented Gradients)</h5>HoG captures edge directions and local shape information by analyzing gradients in small regions of the image. For CIFAR-10, HoG helps in extracting meaningful texture and shape features, which are useful in distinguishing between object categories like airplanes, cars, or animals.
+                </li><br>
+                <li>
+                    <h5>HoG + PCA</h5>In this approach, we first extract detailed edge and shape features using HoG, which can result in a high-dimensional feature vector. We then apply PCA to reduce this vector into a more manageable size while retaining the most important patterns. This helps in balancing feature richness with speed and efficiency, especially when dealing with a large number of CIFAR-10 images for retrieval.
+                </li><br>
+                <li>
+                    <h5>PCA + HoG</h5> This method reverses the previous order: we first apply PCA to reduce the raw image dimensions and remove noise, then use HoG on this compressed version to extract structural features. While it may lose some fine details compared to using HoG first, it still allows for effective shape-based feature extraction with lower processing cost.
+
+                </li><br>
+                <li>
+                    <h5>ResNet</h5> ResNet is a powerful deep convolutional neural network known for its "skip connections," which help in training deeper models without performance degradation. Using a pretrained ResNet model, we extract deep features from CIFAR-10 images that capture complex patterns, textures, and high-level visual concepts. These features are much richer than those from traditional methods and significantly boost retrieval performance by understanding images at a more abstract level.
+                </li><br>
+                <li>
+                    <h5>QuickNet</h5> QuickNet is a lightweight convolutional neural network designed for speed and efficiency, making it suitable for real-time or resource-constrained environments. On CIFAR-10, QuickNet can extract meaningful visual features faster than heavier models like ResNet, while still maintaining reasonable accuracy. It provides a good balance between performance and computational cost, especially useful for quick image retrieval tasks on limited hardware
+                </li><br>
+                
+            </ul>
+
+            <p class="section" id="related-paper"><b>Our Approaches</b></p>
+            <ul>
+                <li>
+                    <h5> Decision Tree (DT)</h5> We used Decision Trees to analyze how well different feature extraction methods perform. Since raw image pixels are too high-dimensional, we relied on compact features like those from PCA or CNNs. 5-fold cross-validation ensured more stable and generalizable results. DTs are interpretable and work well with meaningful feature inputs. The highest accuracy we got upon 5 fold cross validation is 36.45% when the image was preprocessed using HoG + PCA and GINI impurity was used.
+                </li><br>
+                <li>
+                    <h5>Gaussian Naive Bayes (GNB)</h5>GNB assumes feature independence, which isn't ideal for images, but works reasonably well when using PCA-transformed features. It's a simple, fast classifier that provided a good baseline performance. The highest accuracy obtained was 80.25% on ResNet preprocessed images.
+                </li><br>
+                <li>
+                    <h5>Gaussian Mixture Model (GMM)</h5>GMM models each class as a combination of multiple Gaussian distributions, allowing it to capture more complex patterns in image features. It provides soft class assignments, making it useful in cases with ambiguous image categories or overlapping features. The highest accuracy obtained was 54.24% on ResNet preprocessed images.
+                </li><br>
+                <li>
+                    <h5>K-Nearest Neighbours (K-NN)</h5> K-NN classifies images based on similarity to their closest neighbors in the feature space. It clusters similar images together after feature extraction. Its performance heavily depends on the quality of the extracted features. The highest accuracy obtained was 59.04% when HoG + PCA preprocessed images were used along with BrayCurtis distance metric.
+
+                </li><br>
+                <li>
+                    <h5>Random Forest (RF)</h5> Random Forest combines several decision trees to reduce overfitting and boost accuracy. It works well with extracted features and handles non-linear relationships.The highest accuracy is 83.94% when the image was preprocessed using ResNet and GINI impurity was used.
+                </li><br>
+                <li>
+                    <h5>XGBoost (XG)</h5> We implemented a GPU-accelerated version of XGBoost using the multi:softprob objective and monitored performance using the multi-class log loss (mlogloss) metric. To fine-tune model performance, we explored hyperparameter optimization through both GridSearchCV and Optuna, running over 30 trials. For HoG-PCA features, this tuning led to a notable +1.77% improvement in accuracy, indicating that XGBoost benefited from careful parameter selection in this setup. In contrast, ResNet-based features showed only a +0.18% gain, suggesting that the deep features already provided a near-optimal representation for this classifier. The maximum accuracy we recorded is 89.32 %.
+                </li><br>
+                <li>
+                    <h5>Support Vector Machines (SVM)</h5> Different SVM kernels were tested on CIFAR-10 using features from HOG, QuickNet, and ResNet. Models with ResNet features performed the best, reaching up to 90.28% accuracy. QuickNet also gave decent results around 75%, while HOG features were less effective. Adding PCA helped speed things up but didn’t always improve accuracy.
+                </li><br>
+                <li>
+                    <h5> Logistic Regression (LR)</h5>Logistic Regression was applied on top of features extracted using a pretrained ResNet model. Despite being a linear classifier, it performed remarkably well when paired with these deep features, reaching an accuracy of 88.80% on the CIFAR-10 dataset. This result reflects how powerful feature representations from deep networks can simplify the classification task, even for models that don’t capture complex patterns on their own.
+                </li><br>
+                <li>
+                    <h5>Supervised Centroid-Based Classification</h5> This centroid-based method uses the mean vector of each class from the training data to represent class prototypes. At test time, predictions are made by assigning the input to the nearest centroid using Euclidean distance. When applied to features extracted via ResNet, the model achieved an accuracy of 77.84% on CIFAR-10. 
+                </li><br>
+                <li>
+                    <h5>Artificial Neural Network (ANN):</h5> We implemented a Multi-Layer Perceptron (MLP) on top of ResNet-extracted features to classify images from the CIFAR-10 dataset. The architecture included two hidden layers (256 and 128 units) with ReLU activation and dropout regularization, followed by a softmax output layer. Training incorporated early stopping and learning rate reduction for better convergence. After tuning over multiple trials, the best configuration was found in the 11th trial, achieving a validation accuracy of 89.48% and a validation loss of 0.3167. This indicates that the ResNet features are already well-structured, allowing even a shallow MLP to learn class boundaries effectively.
+                </li><br>
+            </ul>
+        </div>
+
+
+
+
+
+
+ <p class="section">&nbsp;</p>
+        <div class="team">
+            <p class="section" id="team"><b>Team</b></p>
+  <div class="row justify-content-center">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                     <div class="mainflip">
+                           <div class="card">
+                              <div class="card-body text-center card-no-padding">
+                                 <p><img  src="manideep_img_prml.png" alt="card image" height="130" width="100"></p>
+                                 <h5 class="card-title">Manideep Kodakandla</h5>
+                                 <ul class="list-inline">
+                                   <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/manideep-kodakandla-a896952a7/">
+                                      <i class="fa fa-linkedin"></i>
+                                      </a>
+                                   </li>
+                                 </ul>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                     <div class="mainflip">
+                           <div class="card">
+                              <div class="card-body text-center card-no-padding">
+                                 <p><img src="vara_img_prml.png" alt="card image" height="130" width="100"></p>
+                                 <h5 class="card-title">Vara Prasad Reddy</h5>
+                                 <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                     <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/vara-prasad-reddy-shasani-6b2937309/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                      <i class="fa fa-linkedin"></i>
+                                      </a>
+                                   </li>
+                                        </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                     <div class="mainflip">
+                           <div class="card">
+                              <div class="card-body text-center card-no-padding">
+                                 <p><img src="neeraj_prml_img.png" alt="card image" height="130" width="100"></p>
+                                 <h5 class="card-title">Neeraj Mansingh</h5>
+                                 <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/neeraj-mansingh-a94042299/">
+                                     <i class="fa fa-linkedin"></i>
+                                     </a>
+                                  </li>
+                                 </ul>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="mainflip">
+                          <div class="card">
+                             <div class="card-body text-center card-no-padding">
+                                <p><img src="tejas_img_prml.png" alt="card image" height="130" width="100"></p>
+                                <h5 class="card-title">Tejas <br/> Kalkar</h5>
+                                <ul class="list-inline">
+                                   
+                                   <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/tejas-kalkar-40a302310/">
+                                    <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li>
+                                 
+                                </ul>
+                             </div>
+                          </div>
+                    </div>
+                 </div>
+   
+
+
+  
+    
+
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                     <div class="mainflip">
+                           <div class="card">
+                              <div class="card-body text-center card-no-padding">
+                                 <p><img src="priyanshu_img_prml.png" alt="card image" height="130" width="100"></p>
+                                 <h5 class="card-title">Priyanshu</h5>
+                                 <ul class="list-inline">
+                                    
+                                    <li class="list-inline-item">
+                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/priyanshu-%E2%80%8E-820a24289/">
+                                     <i class="fa fa-linkedin"></i>
+                                     </a>
+                                  </li>
+                                  
+                                 </ul>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="mainflip">
+                          <div class="card">
+                             <div class="card-body text-center card-no-padding">
+                                <p><img src="karan_prml_img.png" alt="card image" height="130" width="100"></p>
+                                <h5 class="card-title">Karan <br/>Yadav</h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                       <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/karan-yadav-0024712a9/">
+                                       <i class="fa fa-linkedin"></i>
+                                       </a>
+                                    </li>
+                                    
+                                </ul>
+                             </div>
+                          </div>
+                    </div>
+                 </div>
+
+                  
+
+
+
+     </div>
+        <p class="section">&nbsp;</p>
+
+
+<p class="section">&nbsp;</p>
+        <div class="papers-list">
+            <p class="section" id="related-paper"><b>Citations</b></p>
+            <ol>
+                <li>Scikitlearn website - <a href="https://scikit-learn.org/stable/">https://scikit-learn.org/stable/</a></li>
+                <li>Stack Overflow - <a href="https://stackoverflow.blog/machine-learning/">https://stackoverflow.blog/machine-learning/</a></li>
+                <li>KNN - <a href="https://globaljournals.org/item/3888-analysis-of-distance-measures-in-content-based-image-retrieval">https://globaljournals.org/item/3888-analysis-of-distance-measures-in-content-based-image-retrieval</a></li>
+                <li>XGBoost - <a href="https://youtu.be/GrJP9FLV3FE?si=SMZQtfrEpvGig4A5">https://youtu.be/GrJP9FLV3FE?si=SMZQtfrEpvGig4A5</a></li>
+                <li>Logistic Regression - <a href="https://youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe&si=KuSygPegbe-KYxv6">https://youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe&si=KuSygPegbe-KYxv6</a></li>
+                <li>Random Forests - <a href="https://youtu.be/J4Wdy0Wc_xQ?si=1IzPuh43HxeT3200">https://youtu.be/J4Wdy0Wc_xQ?si=1IzPuh43HxeT3200</a></li>
+                </ol>
+        </div>
+
+ <p class="section">&nbsp;</p>
+        <p class="section">&nbsp;</p>
+        <div class="ack">
+            <p class="section" id="ack"><b>Acknowledgment</b></p>
+            We are truly grateful to Dr. Anand Mishra for giving us the opportunity to work on this project. It allowed us to explore a wide range of techniques in image retrieval using the CIFAR-10 dataset, which not only helped us solidify our fundamentals but also introduced us to some advanced concepts. The hands-on experience we gained throughout the project was incredibly valuable and contributed a lot to our learning.
+
+	</div>
+        <p class="section"></p>
+
+
+        <p class="section">&nbsp;</p>
+        <div class="contact">
+            <p class="section" id="related-paper"><b>Contact</b></p>
+            For questions, please contact <a href="https://www.linkedin.com/in/neeraj-mansingh-a94042299/" target="_blank">Neeraj Mansingh</a> or <a href="https://www.linkedin.com/in/vara-prasad-reddy-shasani-6b2937309/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Vara Prasad Reddy</a> or raise an issue on <a class="publink" href="https://github.com/varaiitj2527/PRMLProject" target="_blank" style="text-decoration: none">GitHub</a>.
+	</div>
+        <p class="section"></p>
+
+</body>
+
+ <script>
+    function prompt_on(prompt_element) {
+        prompt_element.classList.add("caption-active");
+    }
+
+    function prompt_off(prompt_element) {
+        prompt_element.classList.remove("caption-active");
+    }
+
+    function toggle_prompt(active_prompt_id, inactive_prompt_ids, result_id) {
+        let active_prompt = document.getElementById(active_prompt_id);
+        prompt_on(active_prompt);
+        for (let i = 0; i < inactive_prompt_ids.length; i++) {
+            let inactive_prompt = document.getElementById(inactive_prompt_ids[i]);
+            prompt_off(inactive_prompt);
+        }
+
+        let result = document.getElementById(result_id);
+        result.src = file_paths[active_prompt_id];
+    }
+ </script>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+ <footer style="
+    background-color: white;
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
+">
+    Webpage made by <strong>Neeraj Mansingh</strong>
+</footer>
+
+
+
+
+</html>
