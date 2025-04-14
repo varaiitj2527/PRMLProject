@@ -27,8 +27,20 @@ Once the features were extracted, we trained multiple classifiers including:
 
 Among all combinations, the **ResNet + ANN** pipeline achieved the **highest accuracy and performance**. This is because ResNet (a deep convolutional network) is capable of capturing high-level abstract features, which when passed to an **Artificial Neural Network**, helped it learn complex patterns and non-linear decision boundaries more effectively than traditional ML models.
 
+**  Repository Structure **
+```bash
+.
+├── Cifar10Dataset/           # Original dataset files
+├── Model/                    # Contains trained models and architecture definitions
+├── PreProcessedData/         # Vectorized and transformed datasets (.pkl files)
+├── EDA.ipynb                 # Exploratory Data Analysis on CIFAR-10
+├── FeatureExtraction.ipynb   # Feature extraction using HOG, QuickNet, PCA, ResNet
+├── Resnet.ipynb              # Deep feature extraction using ResNet
+├── README.md                 # Project documentation
+├── Report.pdf                # Final project report with complete analysis
+├── presentation.pdf          # Project presentation slides
+```
 
- Dataset
 We used the **CIFAR-10** dataset:
 - 50,000 training images  
 - 10,000 testing images  
