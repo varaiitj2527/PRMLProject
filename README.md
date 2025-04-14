@@ -24,11 +24,11 @@ Once the features were extracted, we trained multiple classifiers including:
 - Naive Bayes  
 - Artificial Neural Network (ANN)
 - SVM
-- XGBOAST
+- XGboost
 
 Among all combinations, the **ResNet + ANN** pipeline achieved the **highest accuracy and performance**. This is because ResNet (a deep convolutional network) is capable of capturing high-level abstract features, which when passed to an **Artificial Neural Network**, helped it learn complex patterns and non-linear decision boundaries more effectively than traditional ML models.
 
-**  Repository Structure **
+**Repository Structure**
 ```bash
 .
 ├── Cifar10Dataset/           # Original dataset files
@@ -71,7 +71,7 @@ Each set of features was passed into multiple machine learning models:
 -  K-Nearest Neighbors (**KNN**)  
 -  Random Forest
 -  SVM
--  Xgboast 
+-  XGboost 
 
 ---
 
@@ -83,19 +83,23 @@ Each set of features was passed into multiple machine learning models:
 ## Frontend Integration
 A user-friendly frontend was developed to allow image uploads and display the top-5 most similar images.
 
-###  Example:  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6a38c290-02d4-41c4-8f79-6057802e2b1c" alt="Result 1" width="400" height="400" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/cae3e034-7789-4f42-99ae-593f7cb73ee5" alt="Result 2" width="400" height="400"/>
+</p>
 
- ![WhatsApp Image 2025-04-10 at 19 52 20](https://github.com/user-attachments/assets/a3e65085-4009-46cc-8781-6aa70f61bd9c)
-
-
-`
-- **Predicted Class**: 5  
-- **Top 5 Matches**: All belong to label 5 (dog)
-
-Results confirm accurate retrieval based on learned features.
+<p align="center"><b>Results confirm accurate retrieval based on learned features.</b></p>
+ learned features.</b></p>
 
 ---
+**How to Run the Demo**
 
+
+
+
+
+
+---
 ## Objective
 - Compare different **feature extraction** techniques  
 - Evaluate various **machine learning models**  
