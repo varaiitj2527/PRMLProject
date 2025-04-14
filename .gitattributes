@@ -11,3 +11,4 @@ PreProcessedData/TestFeaturesPCA_HoG.pkl filter=lfs diff=lfs merge=lfs -text
 PreProcessedData/TestFeaturesPCA.pkl filter=lfs diff=lfs merge=lfs -text
 PreProcessedData/TrainFeaturesPCA_HoG.pkl filter=lfs diff=lfs merge=lfs -text
 PreProcessedData/TrainFeaturesPCA.pkl filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
