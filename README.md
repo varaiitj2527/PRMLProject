@@ -2,12 +2,13 @@
 ##  *Course Project: Image Retrieval using Machine Learning*  
 [![GitHub Repo](https://img.shields.io/badge/PRML%20Project-GitHub-blue)](https://github.com/varaiitj2527/PRMLProject/tree/main)
 ## Team Members
--  **Vara Prasad Reddy(B23CM1057)**  
-- **Yadav Karan Subhashchandra(B23EE1103)**  
+- **S Vara Prasad Reddy(B23CM1057)**  
+- **Yadav Karan Subhashchandra(B23EE1103)**
+- **Kodakandla Manideep(B23CS1026)**
 - **Priyanshu(B23CS1097)**  
 - **Neeraj Mansingh(B23CS1095)**  
-- **Kalkar TEJAS PREASAD(B23CM1051)**  
-- **Kondakandla Manideep(B23CS1026)**
+- **Kalkar Tejas Prasad(B23CM1051)**  
+
 
 ## Project Description
 
