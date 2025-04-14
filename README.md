@@ -31,13 +31,13 @@ We explored and compared different feature extraction techniques:
 
 ## 🤖 Models Evaluated
 Each set of features was passed into multiple machine learning models:
-- 🔁 Artificial Neural Network (**ANN**)  
-- 🧠 Bayesian Classifier  
-- 🧩 Clustering  
-- 🌲 Decision Tree  
-- 📈 Logistic Regression  
-- 🧭 K-Nearest Neighbors (**KNN**)  
-- 🌳 Random Forest  
+-  Artificial Neural Network (**ANN**)  
+-  Bayesian Classifier  
+-  Clustering  
+-  Decision Tree  
+-  Logistic Regression  
+-  K-Nearest Neighbors (**KNN**)  
+-  Random Forest  
 
 ---
 
