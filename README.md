@@ -32,8 +32,10 @@ Among all combinations, the **ResNet + ANN** pipeline achieved the **highest acc
 ```bash
 .
 ├── Cifar10Dataset/           # Original dataset files
+├── Demo/                     # Contains code for demo app
 ├── Model/                    # Contains trained models and architecture definitions
 ├── PreProcessedData/         # Vectorized and transformed datasets (.pkl files)
+├── prml_webpage/             # Contains code and assets for webpage 
 ├── EDA.ipynb                 # Exploratory Data Analysis on CIFAR-10
 ├── FeatureExtraction.ipynb   # Feature extraction using HOG, QuickNet, PCA, ResNet
 ├── Resnet.ipynb              # Deep feature extraction using ResNet
@@ -89,16 +91,26 @@ A user-friendly frontend was developed to allow image uploads and display the to
 </p>
 
 <p align="center"><b>Results confirm accurate retrieval based on learned features.</b></p>
- learned features.</b></p>
 
 ---
-**How to Run the Demo**
+## Demo
 
+You can try the demo [here](https://imageretrieval.streamlit.app)
 
+## Running the App Locally
 
+To run the app on your local machine, follow these steps:
 
+```bash
+# Navigate to the Demo directory
+cd Demo
 
+# Install the required dependencies
+pip install -r requirements.txt
 
+# Start the Streamlit app
+streamlit run app.py
+```
 ---
 ## Objective
 - Compare different **feature extraction** techniques  
